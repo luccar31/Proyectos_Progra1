@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1586806887 source:c:\users\lucas\desktop\progra i\proyectos\funciones ctype\main.c
+	"main.h"
+
+1586807039 c:\users\lucas\desktop\progra i\proyectos\funciones ctype\main.h
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1586296055 c:\users\lucas\desktop\progra i\proyectos\funciones ctype\funciones.h
+	<stdio.h>
+	<stdlib.h>
+

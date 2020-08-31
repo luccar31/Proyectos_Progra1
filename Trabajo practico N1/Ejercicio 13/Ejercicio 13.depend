@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1589224653 source:c:\users\lucas\desktop\facu\progra i\proyectos\ejercicio 13\main.c
+	"main.h"
+
+1586807039 c:\users\lucas\desktop\facu\progra i\proyectos\ejercicio 13\main.h
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1589224595 c:\users\lucas\desktop\facu\progra i\proyectos\ejercicio 13\funciones.h
+	<stdio.h>
+	<stdlib.h>
+
+1589224595 source:c:\users\lucas\desktop\facu\progra i\proyectos\ejercicio 13\funciones.c
+	"funciones.h"
+

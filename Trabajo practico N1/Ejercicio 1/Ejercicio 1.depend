@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1586477004 source:c:\users\lucas\desktop\facu\progra i\proyectos\factorial\funciones.c
+	"funciones.h"
+	<stdio.h>
+
+1586476921 c:\users\lucas\desktop\facu\progra i\proyectos\factorial\funciones.h
+
+1586476603 source:c:\users\lucas\desktop\facu\progra i\proyectos\factorial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"main.h"
+
+1586473490 c:\users\lucas\desktop\facu\progra i\proyectos\factorial\main.h
+	"funciones.h"
+
+1586477004 source:c:\users\lucas\desktop\facu\progra i\proyectos\trabajo practico n°1\ejercicio 1\funciones.c
+	"funciones.h"
+	<stdio.h>
+
+1586476921 c:\users\lucas\desktop\facu\progra i\proyectos\trabajo practico n°1\ejercicio 1\funciones.h
+
+1586476603 source:c:\users\lucas\desktop\facu\progra i\proyectos\trabajo practico n°1\ejercicio 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"main.h"
+
+1586473490 c:\users\lucas\desktop\facu\progra i\proyectos\trabajo practico n°1\ejercicio 1\main.h
+	"funciones.h"
+

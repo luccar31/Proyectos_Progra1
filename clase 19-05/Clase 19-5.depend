@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1589932757 source:c:\users\lucas\desktop\facu\progra i\proyectos\clase 19-05\funciones.c
+	"funciones.h"
+
+1589932757 c:\users\lucas\desktop\facu\progra i\proyectos\clase 19-05\funciones.h
+	<stdio.h>
+	<stdlib.h>
+
+1586806887 source:c:\users\lucas\desktop\facu\progra i\proyectos\clase 19-05\main.c
+	"main.h"
+
+1586807039 c:\users\lucas\desktop\facu\progra i\proyectos\clase 19-05\main.h
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+

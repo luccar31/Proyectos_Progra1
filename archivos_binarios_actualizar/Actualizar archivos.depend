@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1589673743 source:c:\users\lucas\desktop\facu\progra i\proyectos\archivos_binarios_actualizar\main.c
+	"main.h"
+
+1589673743 c:\users\lucas\desktop\facu\progra i\proyectos\archivos_binarios_actualizar\main.h
+	"funciones.h"
+
+1589673743 c:\users\lucas\desktop\facu\progra i\proyectos\archivos_binarios_actualizar\funciones.h
+	<stdio.h>
+	<stdlib.h>
+
+1589675356 source:c:\users\lucas\desktop\facu\progra i\proyectos\archivos_binarios_actualizar\funciones.c
+	"funciones.h"
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1586806887 source:c:\users\lucas\desktop\facu\progra i\proyectos\archivos de texto long fija\funciones.c
+	"funciones.h"
+
+1586296055 c:\users\lucas\desktop\facu\progra i\proyectos\archivos de texto long fija\funciones.h
+	<stdio.h>
+	<stdlib.h>
+

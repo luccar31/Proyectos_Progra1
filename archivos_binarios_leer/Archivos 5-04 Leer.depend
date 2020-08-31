@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1589658138 source:c:\users\lucas\desktop\facu\progra i\proyectos\archivos_leer\funciones.c
+	"funciones.h"
+
+1589658138 c:\users\lucas\desktop\facu\progra i\proyectos\archivos_leer\funciones.h
+	<stdio.h>
+	<stdlib.h>
+
+1589658311 source:c:\users\lucas\desktop\facu\progra i\proyectos\archivos_leer\main.c
+	"main.h"
+
+1586807039 c:\users\lucas\desktop\facu\progra i\proyectos\archivos_leer\main.h
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1589658138 source:c:\users\lucas\desktop\facu\progra i\proyectos\archivos_binarios_leer\funciones.c
+	"funciones.h"
+
+1589658138 c:\users\lucas\desktop\facu\progra i\proyectos\archivos_binarios_leer\funciones.h
+	<stdio.h>
+	<stdlib.h>
+
