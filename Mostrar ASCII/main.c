@@ -2,6 +2,6 @@
 
 int main()
 {
-    mostrar_ascii();
+    mostrar_ascii2();
     return 0;
 }

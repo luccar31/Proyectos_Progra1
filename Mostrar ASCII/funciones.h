@@ -4,5 +4,6 @@
 #include <stdlib.h>
 
 void mostrar_ascii(void);
+void mostrar_ascii2(void);
 
 #endif // FUNCIONES_H_INCLUDED

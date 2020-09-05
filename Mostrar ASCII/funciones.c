@@ -14,3 +14,15 @@ void mostrar_ascii(void){
         printf("%0*i|%0*x|%0*o|%-8s|%c\t\t",3,ascii,3,ascii,3,ascii,bin,ascii);
     }
 }
+
+void mostrar_ascii2(void){
+
+    char bin[9];
+
+    printf("DEC|HEX|OCT|BINARIO |CHAR\n");
+    for(int ascii = 41;ascii <= 255;ascii++){
+
+        itoa(ascii, bin, 2);
+        printf("%0*i|%0*x|%0*o|%-8s|%c\t\t\n",3,ascii,3,ascii,3,ascii,bin,ascii);
+    }
+}
