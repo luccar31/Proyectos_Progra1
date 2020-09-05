@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1586907316 source:c:\users\lucas\desktop\progra i\proyectos\muestra tabla ascii\main.c
+	"main.h"
+
+1586807039 c:\users\lucas\desktop\progra i\proyectos\muestra tabla ascii\main.h
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1586907316 c:\users\lucas\desktop\progra i\proyectos\muestra tabla ascii\funciones.h
+	<stdio.h>
+	<stdlib.h>
+
+1586907340 source:c:\users\lucas\desktop\progra i\proyectos\muestra tabla ascii\funciones.c
+	"funciones.h"
+
+1599280383 source:c:\users\lucas\desktop\facu\2c 2020\programacion i - 2c 2020\proyectos\muestra tabla ascii\funciones.c
+	"funciones.h"
+
+1586907316 c:\users\lucas\desktop\facu\2c 2020\programacion i - 2c 2020\proyectos\muestra tabla ascii\funciones.h
+	<stdio.h>
+	<stdlib.h>
+
+1586907316 source:c:\users\lucas\desktop\facu\2c 2020\programacion i - 2c 2020\proyectos\muestra tabla ascii\main.c
+	"main.h"
+
+1586807039 c:\users\lucas\desktop\facu\2c 2020\programacion i - 2c 2020\proyectos\muestra tabla ascii\main.h
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
