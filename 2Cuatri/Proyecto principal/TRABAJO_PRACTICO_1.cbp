@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="TRABAJO_PRACTICO_1" />
+		<Option title="TP_1" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -31,13 +31,18 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="LIB_TP1.h" />
-		<Unit filename="factorial.c">
+		<Unit filename="../Biblioteca/matematicas.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="../Biblioteca/matematicas.h" />
+		<Unit filename="../Biblioteca/menus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Biblioteca/menus.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="main.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

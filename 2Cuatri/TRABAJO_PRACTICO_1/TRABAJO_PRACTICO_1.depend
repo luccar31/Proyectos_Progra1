@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1599003217 source:c:\users\lucas\desktop\facu\2c 2020\programacion i - 2c 2020\proyectos\2cuatri\trabajo_practico_1\factorial.c
-
-1599005240 source:c:\users\lucas\desktop\facu\2c 2020\programacion i - 2c 2020\proyectos\2cuatri\trabajo_practico_1\main.c
-	<stdio.h>
-	<stdlib.h>
-
