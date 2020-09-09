@@ -31,6 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="../Biblioteca/c_type.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Biblioteca/c_type.h" />
 		<Unit filename="../Biblioteca/matematicas.c">
 			<Option compilerVar="CC" />
 		</Unit>
