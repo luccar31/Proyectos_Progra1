@@ -20,15 +20,20 @@
 	<windows.h>
 	"matematicas.h"
 
-1599603203 c:\users\lucas\desktop\facu\2c 2020\programacion i - 2c 2020\proyectos\2cuatri\biblioteca\matematicas.h
+1599892295 c:\users\lucas\desktop\facu\2c 2020\programacion i - 2c 2020\proyectos\2cuatri\biblioteca\matematicas.h
 	<stdio.h>
 	<math.h>
 	<stdlib.h>
 	<string.h>
 
-1599603203 source:c:\users\lucas\desktop\facu\2c 2020\programacion i - 2c 2020\proyectos\2cuatri\biblioteca\matematicas.c
+1599889513 source:c:\users\lucas\desktop\facu\2c 2020\programacion i - 2c 2020\proyectos\2cuatri\biblioteca\matematicas.c
 	"matematicas.h"
 
-1599603311 source:c:\users\lucas\desktop\facu\2c 2020\programacion i - 2c 2020\proyectos\2cuatri\biblioteca\menus.c
+1599892364 source:c:\users\lucas\desktop\facu\2c 2020\programacion i - 2c 2020\proyectos\2cuatri\biblioteca\menus.c
 	"menus.h"
+
+1599611266 source:c:\users\lucas\desktop\facu\2c 2020\programacion i - 2c 2020\proyectos\2cuatri\biblioteca\c_type.c
+	"c_type.h"
+
+1599611266 c:\users\lucas\desktop\facu\2c 2020\programacion i - 2c 2020\proyectos\2cuatri\biblioteca\c_type.h
 

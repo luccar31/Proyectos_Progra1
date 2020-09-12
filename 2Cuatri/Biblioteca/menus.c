@@ -29,14 +29,12 @@ void menu_principal (void){
 void submenu_matematicas(void){
 
      int opc;
-     double x, y, TOL, f;
+     double x, y, TOL = 0.0000001, f;
 
      printf("Ingrese un valor para x:\n");
      scanf("%lf",&x);
      printf("Ingrese un valor para y:\n");
      scanf("%lf",&y);
-     printf("Ingrese un valor para la tolerancia:\n");
-     scanf("%lf",&TOL);
 
      do{
          system("cls");
@@ -61,18 +59,39 @@ void submenu_matematicas(void){
          switch(opc){
             case 1: f = factorial(x);
                     printf("%f\n",f);
-                    system("pause"); break;
+                    system("pause");
+                    break;
             case 2: f = combinatorio(x, y);
                     printf("%i\n",(int)f);
-                    system("pause");break;
-            case 3: exponential_e((int)x, TOL); system("pause");break;
-            case 4: square_root(x, TOL); system("pause");break;
-            case 5: is_Fibonacci(); system("pause");break;
-            case 6: sen(); system("pause");break;
-            case 7: is_perfect(); system("pause");break;
-            case 8: prodbysums(); system("pause");break;
-            case 9: restof(); system("pause");break;
-            case 10: sum_natural(); system("pause");break;
+                    system("pause");
+                    break;
+            case 3: f = exponential_e((int)x, TOL);
+                    system("pause");
+                    break;
+            case 4: f = square_root(x, TOL);
+                    system("pause");
+                    break;
+            case 5: f = is_Fibonacci((int)x);
+                    printf("%s\n", (f > 0) ? "Es Fibonacci": "NO es Fibonacci");
+                    system("pause");
+                    break;
+            case 6: sen(x, TOL);
+                    printf("%f\n", f);
+                    system("pause");
+                    break;
+            case 7: f = is_perfect((int)x);
+                    printf("%i\n", (int)f);
+                    system("pause");
+                    break;
+            case 8: f = prodbysums((int)x, (int)y);
+                    system("pause");
+                    break;
+            case 9: f = restof((int)x, (int)y);
+                    system("pause");
+                    break;
+            case 10:f = sum_natural((int)x);
+                    system("pause");
+                    break;
             case 11: sum_even_natural(); system("pause");break;
             case 12: sum_even_lessth_n(); system("pause");break;
             case 13: is_prime(); system("pause");break;

@@ -6,20 +6,23 @@
 #include <string.h>
 /*Prototipos, definiciones y estructuras de librería "matematicas"*/
 #define ND -1 //NOT DEFINE
+#define TRUE 1
+#define FALSE 0
 
 int factorial(int n);
 int combinatorio(int m,int n);
 double exponential_e(int x, float TOL);
 double square_root(int numero, float TOL);
-void is_Fibonacci(void);
-void sen(void);
-void is_perfect(void);
-void prodbysums(void);
-void restof(void);
-void sum_natural(void);
+int is_Fibonacci(int n);
+double sen(double x, double TOL);
+int is_perfect(int n);
+int prodbysums(int n, int m);
+int restof(int n, int m);
+int sum_natural(int n);
 void sum_even_natural(void);
 void sum_even_lessth_n(void);
 void is_prime(void);
+double valor_absoluto(double n);
 
 //Funciones que comprueban datos
 

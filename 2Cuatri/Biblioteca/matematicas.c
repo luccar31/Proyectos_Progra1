@@ -80,23 +80,98 @@ double square_root(int numero, float TOL){
 	return term;
 }
 
-void is_Fibonacci(void){
-    printf("Proximamente\n");
+int is_Fibonacci(int n){
+
+    int termino = 1;
+
+    while (termino <= n){
+        if(termino == n){
+            return TRUE;
+        }
+        termino += termino;
+    }
+
+    return FALSE;
 }
-void sen(void){
+double sen(double x, double TOL){
+
+//    double r = 0, term = -1;
+//    int i = 1;
+//
+//    do{
+//
+//		term *= -pow(x,i)/i;
+//        if (i%2 != 0)
+//            r += term;
+//        i++;
+//
+//	  }while(valor_absoluto(term) > TOL);
+//
+//    return r;
     printf("Proximamente\n");
+    return 0;
 }
-void is_perfect(void){
-    printf("Proximamente\n");
+int is_perfect(int n){
+
+    int sum = 0;
+
+    for(int i=1;i < n;i++){
+        if(n%i == 0)
+            sum+=i;
+    }
+
+    if(sum == n) //perfecto
+        return 1;
+    if(sum < n) //deficiente
+        return 2;
+    if(sum > n) //abundante
+        return 3;
 }
-void prodbysums(void){
-    printf("Proximamente\n");
+
+int prodbysums(int n, int m){
+
+    if (n < 0 || m < 0)
+        return ND;
+
+    int i, prod = 0;
+
+    for(i = 0;i < n;i++){
+        prod += m;
+    }
+
+    printf("Producto: %i\n", prod);
+    return prod;
 }
-void restof(void){
-    printf("Proximamente\n");
+
+int restof(int n, int m){
+
+    int C = 0;
+
+    if (m <= 0)
+        return ND;
+
+    while ((n - m) >= 0){
+        n -= m;
+        C++;
+    }
+    printf("Resto: %i\n", n);
+    printf("Cociente: %i\n", C);
+    return C;
 }
-void sum_natural(void){
-    printf("Proximamente\n");
+int sum_natural(int n){
+
+    if(n < 0)
+        return ND;
+
+    int sum = 0;
+
+    for(int i = n; i > 0;i--){
+        sum += i;
+    }
+
+    printf("%i\n",sum);
+
+    return sum;
 }
 void sum_even_natural(void){
     printf("Proximamente\n");
@@ -152,4 +227,9 @@ int is_decimal(char *strg)
       }
    }
    return 1;
+}
+
+double valor_absoluto(double n){
+
+    return (n >= 0) ? n  : (-n);
 }
