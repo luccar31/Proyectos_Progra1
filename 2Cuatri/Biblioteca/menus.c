@@ -11,6 +11,7 @@ void menu_principal (void){
                 "2 - Fechas\n"
                 "3 - Vectores\n"
                 "4 - Matrices\n"
+                "5 - C-type\n"
                 "Digite cualquier otra tecla para salir del programa\n");
 
          scanf("%i",&opc);
@@ -20,6 +21,7 @@ void menu_principal (void){
             case 2: submenu_fechas(); break;
             case 3: submenu_vectores(); break;
             case 4: submenu_matrices(); break;
+            case 5: submenu_ctype(); break;
             default: break;
          }
 
@@ -51,7 +53,8 @@ void submenu_matematicas(void){
                 "10- Calcular suma de primeros n numeros\n"
                 "11- Calcular suma de primeros n numeros pares\n"
                 "12- Calcular suma de primeros n numeros pares menores que n\n"
-                "13- ¿Es primo?\n");
+                "13- ¿Es primo?\n"
+                "Digite cualquier otra tecla para salir al menu principal\n");
 
 
          scanf("%i",&opc);
@@ -86,15 +89,21 @@ void submenu_matematicas(void){
             case 8: f = prodbysums((int)x, (int)y);
                     system("pause");
                     break;
-            case 9: f = restof((int)x, (int)y);
+            case 9: f = restof(x, y);
                     system("pause");
                     break;
-            case 10:f = sum_natural((int)x);
-                    system("pause");
-                    break;
-            case 11: sum_even_natural(); system("pause");break;
-            case 12: sum_even_lessth_n(); system("pause");break;
-            case 13: is_prime(); system("pause");break;
+            case 10: f = sum_natural(x);
+                     system("pause");
+                     break;
+            case 11: f = sum_even_natural(x);
+                     system("pause");
+                     break;
+            case 12: f = sum_even_lessth_n(x);
+                     system("pause");
+                     break;
+            case 13: f= is_prime(x);
+                     system("pause");
+                     break;
             default: break;
          }
 
@@ -108,4 +117,33 @@ void submenu_vectores(void){
 }
 
 void submenu_matrices(void){
+}
+
+void submenu_ctype(void){
+
+     int opc;
+
+     do{
+         system("cls");
+         printf("Seleccione la opcion para ver los  disponibles:\n"
+                "1 - Matematicas\n"
+                "2 - Fechas\n"
+                "3 - Vectores\n"
+                "4 - Matrices\n"
+                "5 - C-type\n"
+                "Digite cualquier otra tecla para salir del programa\n");
+
+         scanf("%i",&opc);
+
+         switch(opc){
+            case 1: submenu_matematicas(); break;
+            case 2: submenu_fechas(); break;
+            case 3: submenu_vectores(); break;
+            case 4: submenu_matrices(); break;
+            case 5: submenu_ctype(); break;
+            default: break;
+         }
+
+     }while (opc > 0 && opc < 5);
+
 }

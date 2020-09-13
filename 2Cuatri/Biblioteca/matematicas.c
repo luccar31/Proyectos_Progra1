@@ -173,14 +173,50 @@ int sum_natural(int n){
 
     return sum;
 }
-void sum_even_natural(void){
-    printf("Proximamente\n");
+
+int sum_even_natural(int n){
+
+    if(n < 0)
+        return ND;
+
+    int sum = 0;
+
+    for(int i = (n%2 != 0) ? n-1 : n; i > 0 ; i-=2){
+        sum += i;
+    }
+
+    printf("%i\n",sum);
+
+    return sum;
 }
-void sum_even_lessth_n(void){
-    printf("Proximamente\n");
+int sum_even_lessth_n(int n){
+
+    if(n < 0)
+        return ND;
+
+    int sum = 0;
+
+    for(int i = (n%2 != 0) ? n-1 : n-2; i > 0 ; i-=2){
+        sum += i;
+    }
+
+    printf("%i\n",sum);
+
+    return sum;
 }
-void is_prime(void){
-    printf("Proximamente\n");
+int is_prime(int n){
+
+    if (n < 0)
+        return ND;
+
+    int div = 1;
+
+    for(int i = 2;i <= n; i++){
+        if(n%i == 0)
+            div++;
+    }
+
+    return div == 2 ? TRUE : FALSE;
 }
 
 int is_integer(char *strg){

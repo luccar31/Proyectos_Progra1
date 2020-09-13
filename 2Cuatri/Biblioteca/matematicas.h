@@ -19,9 +19,9 @@ int is_perfect(int n);
 int prodbysums(int n, int m);
 int restof(int n, int m);
 int sum_natural(int n);
-void sum_even_natural(void);
-void sum_even_lessth_n(void);
-void is_prime(void);
+int sum_even_natural(int n);
+int sum_even_lessth_n(int n);
+int is_prime(int n);
 double valor_absoluto(double n);
 
 //Funciones que comprueban datos
