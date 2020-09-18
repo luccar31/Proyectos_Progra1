@@ -35,7 +35,7 @@ int isAlNum(int ch){
 }
 
 int isPrint(int ch){
-    return (ch >= '' && ch <= '~');
+    return (ch >= ' ' && ch <= '~');
 }
 
 int isGraph(int ch){
@@ -43,7 +43,7 @@ int isGraph(int ch){
 }
 
 int isPunct(int ch){
-    return (!isAlNum(ch) && ch != '');
+    return (!isAlNum(ch) && ch != ' ');
 }
 
 int isCntrl(int ch){
@@ -51,7 +51,7 @@ int isCntrl(int ch){
 }
 
 int isSpace(int ch){
-    return (ch >= 9 && ch <= 14 || ch == '');
+    return ((ch >= 9 && ch <= 14) || ch == ' ');
 }
 
 int isXDigit(int ch){

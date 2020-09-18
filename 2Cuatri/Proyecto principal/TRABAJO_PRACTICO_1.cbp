@@ -35,6 +35,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../Biblioteca/c_type.h" />
+		<Unit filename="../Biblioteca/fechas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Biblioteca/fechas.h" />
 		<Unit filename="../Biblioteca/matematicas.c">
 			<Option compilerVar="CC" />
 		</Unit>
